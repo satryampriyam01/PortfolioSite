@@ -71,7 +71,7 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="lg:w-1/2 bg-white shadow-lg rounded-lg p-8 sm:p-12 md:p-16 w-full max-w-md mx-auto lg:mx-0 text-lg flex flex-col gap-6"
+          className="lg:w-1/2 bg-white shadow-lg rounded-lg p-6 sm:p-12 md:p-16 w-full max-w-md mx-auto lg:mx-0 text-lg flex flex-col gap-4"
         >
           {/* Contact Information */}
           <div className="mb-4 text-gray-700">
