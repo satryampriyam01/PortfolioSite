@@ -26,9 +26,8 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-          Welcome to my digital canvas, where technology meets innovation. 
-            I am a dynamic Software Development Engineer with a strong foundation in Full Stack Development, Machine Learning, and Product Management. 
-            My portfolio reflects my commitment to pushing the boundaries of what's possible.
+          I am currently a graduate student pursuing a Master of Science (MS) in Computer Science with a specialization in Artificial Intelligence at Northeastern University. 
+            My passion lies in Computer Science, and I have a strong interest in software development, backend web development, cloud computing, and artificial intelligence.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
