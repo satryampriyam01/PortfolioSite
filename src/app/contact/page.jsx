@@ -8,6 +8,7 @@ const ContactPage = () => {
   const [error, setError] = useState(false);
   const text = "Contact Me";
   const form = useRef();
+  const messageRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,6 +33,11 @@ const ContactPage = () => {
       );
   };
 
+  // Focus and select the text area
+  const handleTextAreaFocus = () => {
+    messageRef.current.select();
+  };
+
   return (
     <motion.div
       className="h-full flex items-center justify-center bg-gray-100"
@@ -39,7 +45,7 @@ const ContactPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="flex flex-col lg:flex-row px-6 sm:px-12 lg:px-24 xl:px-48 w-full max-w-6xl">
+      <div className="flex flex-col lg:flex-row px-6 sm:px-12 lg:px-24 xl:px-48 w-full max-w-7xl">
         
         {/* TEXT CONTAINER */}
         <div className="h-1/3 lg:h-auto lg:w-1/2 flex items-center justify-center text-6xl font-bold text-gray-800">
@@ -66,21 +72,26 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="lg:w-1/2 bg-white shadow-lg rounded-lg p-8 text-lg flex flex-col gap-6"
+          className="lg:w-1/2 bg-white shadow-lg rounded-lg p-12 md:p-16 text-lg flex flex-col gap-8"
         >
-          <div className="text-gray-600 mb-4">
-            <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com</h1>
-            <h1>Phone: 857-343-7331</h1>
+          <div className="mb-4 text-gray-700">
+            <h1 className="text-2xl font-bold text-purple-700 mb-1">Email:</h1>
+            <p className="text-lg">priyam.s@northeastern.edu || satyampriyam01@gmail.com</p>
+            <h1 className="text-2xl font-bold text-purple-700 mt-4 mb-1">Phone:</h1>
+            <p className="text-lg">857-343-7331</p>
           </div>
           
           <span className="font-semibold">Send a message:</span>
 
           <textarea
+            ref={messageRef}
             rows={5}
             className="p-4 bg-gray-100 border border-gray-300 rounded focus:outline-none focus:border-gray-500 resize-none"
             name="user_message"
             placeholder="Your message"
             required
+            onClick={handleTextAreaFocus}
+            onFocus={handleTextAreaFocus}
           />
 
           <span className="font-semibold">Your Email address:</span>
