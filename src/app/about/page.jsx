@@ -41,11 +41,19 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">About Me</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Hey, I know things might not be perfect right now, and I can feel the tension from here. 
-              But I just want to remind you that you're the most important part of my day, and I never want to make you feel upset. 
-              I might not always get it right, but I promise I’m always trying to learn, grow, and make things better. Your happiness means the world to me, and I’m here, ready to listen, understand, and make things right. 
-              Just know that I love you more than anything, and I’m truly sorry if I’ve caused you any frustration.
-              Please VIEW ON LAPTOP FOR BETTER EXPERIENCE MENUCHA !
+               I am Satyam Priyam, an innovative and inquisitive Software
+              Development Engineer with a deep foundation in computational
+              design principles and hands-on expertise in Full Stack
+              Development, Cloud and Container technologies, and Machine
+              Learning. I am driven by a passion for leveraging technology to
+              solve intricate challenges and deliver innovative solutions. My
+              background spans experience in travel B2B/B2C sectors and Agile
+              methodologies, equipping me with a strategic, user-centered
+              approach to software development. Focused on fintech, consulting,
+              and banking roles, I bring a blend of technical acumen and
+              analytical insight, enabling me to address complex problems
+              effectively and craft solutions that deliver meaningful value to
+              stakeholders and end users alike.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
