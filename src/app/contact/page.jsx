@@ -76,9 +76,9 @@ const ContactPage = () => {
         >
           <div className="mb-4 text-gray-700">
             <h1 className="text-2xl font-bold text-purple-700 mb-1">Email:</h1>
-            <p className="text-lg">priyam.s@northeastern.edu || satyampriyam01@gmail.com</p>
+            <h1 className="text-lg" text-yellow-700 >priyam.s@northeastern.edu || satyampriyam01@gmail.com</h1>
             <h1 className="text-2xl font-bold text-purple-700 mt-4 mb-1">Phone:</h1>
-            <p className="text-lg">857-343-7331</p>
+            <p className="text-lg" text-yellow-700>857-343-7331</p>
           </div>
           
           <span className="font-semibold">Send a message:</span>
@@ -105,7 +105,7 @@ const ContactPage = () => {
 
           <button
             type="submit"
-            className="bg-purple-500 text-white rounded-md font-semibold text-lg py-3 transition-all hover:bg-purple-600 focus:ring-4 focus:ring-purple-300"
+            className="bg-blue-500 text-white rounded-md font-semibold text-lg py-3 transition-all hover:bg-purple-600 focus:ring-4 focus:ring-purple-300"
           >
             Send
           </button>
