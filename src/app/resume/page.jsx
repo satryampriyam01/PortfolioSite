@@ -4,7 +4,7 @@ import React from 'react';
 const ResumePage = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>Resume</h1>
+      <h1 style={styles.header}>My Resume</h1>
 {/*       <p style={styles.description}>
         Discover my professional journey by accessing my resume
       </p> */}
