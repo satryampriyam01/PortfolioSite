@@ -34,7 +34,7 @@ const items = [
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "Imager",
-    desc: "An image processing app with a GUI using Java, Swing and Junit, designed as an Adobe-like clone, providing users with functionalities such as image compression, blurring, color correction, and more. Built with Haar wavelet implementation, Gaussian functions, and various mathematical operations. ",
+    desc: "Programmed an image processing app with a GUI using Java, Swing and Junit, designed as an Adobe-like clone, providing users with functionalities such as image compression, blurring, color correction, and more. Built with Haar wavelet implementation, Gaussian functions, and various mathematical operations. ",
     img: "/imager.gif",
     link: "https://lama.dev",
   },
