@@ -41,19 +41,10 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">About Me</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-               I am Satyam Priyam, an innovative and inquisitive Software
-              Development Engineer with a deep foundation in computational
-              design principles and hands-on expertise in Full Stack
-              Development, Cloud and Container technologies, and Machine
-              Learning. I am driven by a passion for leveraging technology to
-              solve intricate challenges and deliver innovative solutions. My
-              background spans experience in travel B2B/B2C sectors and Agile
-              methodologies, equipping me with a strategic, user-centered
-              approach to software development. Focused on fintech, consulting,
-              and banking roles, I bring a blend of technical acumen and
-              analytical insight, enabling me to address complex problems
-              effectively and craft solutions that deliver meaningful value to
-              stakeholders and end users alike.
+               As a Full Stack Software Engineer, I specialize in weaving AI with cloud technologies to architect software that’s not 
+              only smart but also scales beautifully. I’m all about creating efficient, user-friendly systems—without any help from ChatGPT, 
+              I assure you! When not immersed in code, 
+              I’m likely plotting my next tech breakthrough. Ready to build something great? Let’s make software that’s worth tweeting about!
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
