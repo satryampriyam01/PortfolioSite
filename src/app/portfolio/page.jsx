@@ -48,7 +48,7 @@ const items = [
   },
   {
     id: 6,
-    color: "from-grey-300 to-black-800",
+    color: "from-black-300 to-blue-300",
     title: "More projects",
     desc: "Take a dive into my GitHub wonderland! From full-stack web escapades to AI-fueled adventures, explore the wild variety of projects I've tackled—and probably still am as you read this! Who knows, you might just catch me mid-debug!",
     img: "/Github.jpeg",
