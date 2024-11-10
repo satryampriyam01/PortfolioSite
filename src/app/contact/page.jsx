@@ -58,9 +58,7 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            <h1>
-            😊
-              </h1>
+              
           </div>
         </div>
         {/* FORM CONTAINER */}
