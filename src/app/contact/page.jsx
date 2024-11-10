@@ -66,6 +66,7 @@ const ContactPage = () => {
         {/* FORM CONTAINER */}
         <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com
 Phone: 857-343-7331</h1>
+        <span>using the following form</span>
         <form
           onSubmit={sendEmail}
           ref={form}
