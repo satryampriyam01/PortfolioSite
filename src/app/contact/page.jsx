@@ -58,10 +58,14 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            satyampriyam01@gmail.com || +1 (857)-343-7331😊
+            <h1>
+            😊
+              </h1>
           </div>
         </div>
         {/* FORM CONTAINER */}
+        <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com
+Phone: 857-343-7331</h1>
         <form
           onSubmit={sendEmail}
           ref={form}
