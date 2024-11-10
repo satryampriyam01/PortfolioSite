@@ -75,7 +75,7 @@ const ContactPage = () => {
         >
           {/* Contact Information */}
           <div className="mb-4 text-gray-700">
-            <h1 className="text-2xl font-bold text-purple-700 mb-1">Email:</h1>
+            <h1 className="text-xl font-bold text-purple-700 mb-1">Email:</h1>
             <h1 className="text-lg text-yellow-700">priyam.s@northeastern.edu || satyampriyam01@gmail.com</h1>
             <h1 className="text-2xl font-bold text-purple-700 mt-4 mb-1">Phone:</h1>
             <h1 className="text-lg text-yellow-700">857-343-7331</h1>
