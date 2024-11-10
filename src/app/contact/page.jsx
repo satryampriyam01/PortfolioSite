@@ -74,13 +74,13 @@ const ContactPage = () => {
             name="user_message"
             placeholder="Type you message here!!"
           />
-          <span>Your Name, Email address:</span>
+          <span>Regards,</span>
+          <span>Your Name/ Email address:</span>
           <input
             name="user_email"
             type="text"
             className="bg-transparent border-b-2 border-b-black outline-none"
           />
-          <span>Regards</span>
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
             Send
           </button>
