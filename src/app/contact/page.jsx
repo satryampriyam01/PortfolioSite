@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
-  const text = "@Email : satyampriyam01@gmail.com";
+  const text = "Contact Me At";
 
   const form = useRef();
 
@@ -58,7 +58,7 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            😊
+            satyampriyam01@gmail.com || +1 (857)-343-7331😊
           </div>
         </div>
         {/* FORM CONTAINER */}
