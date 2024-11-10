@@ -27,6 +27,7 @@ const Homepage = () => {
           {/* DESC */}
           <p className="md:text-xl">
           I am currently a graduate student pursuing a Master of Science (MS) in Computer Science with a specialization in Artificial Intelligence at Northeastern University. 
+            </br>
             My passion lies in Computer Science, and I have a strong interest in software development, backend web development, cloud computing, and artificial intelligence.
           </p>
           {/* BUTTONS */}
