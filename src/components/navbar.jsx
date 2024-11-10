@@ -93,7 +93,7 @@ const Navbar = () => {
       </div>
       {/* SOCIAL */}
       <Link href="https://drive.google.com/file/d/1fGeNT2Oxod-lFUWPsXhWTgsMXj8Hk3rh/view?usp=sharing">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+          <Image src="/resume.png" alt="" width={24} height={24} />
         </Link>
       <div className="hidden md:flex gap-6 w-1/8">
         <Link href="https://github.com/satryampriyam01">
