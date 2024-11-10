@@ -62,15 +62,16 @@ const ContactPage = () => {
           </div>
         </div>
         {/* FORM CONTAINER */}
-        <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com
-Phone: 857-343-7331</h1>
-        <span>using the following form</span>
+      
         <form
           onSubmit={sendEmail}
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Hi, Satyam Priyam</span>
+            <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com
+Phone: 857-343-7331</h1>
+        <span>....using the following form</span>
+          <h2>Hi, Satyam Priyam</h2>
           <textarea
             rows={6}
             className="bg-white border-1 border-black resize-none outline-none"
