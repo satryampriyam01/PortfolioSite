@@ -5,9 +5,9 @@ const ResumePage = () => {
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>Resume</h1>
-      <p style={styles.description}>
-        Discover my professional journey by accessing my resume.
-      </p>
+{/*       <p style={styles.description}>
+        Discover my professional journey by accessing my resume
+      </p> */}
       <a 
         href="https://drive.google.com/file/d/1fGeNT2Oxod-lFUWPsXhWTgsMXj8Hk3rh/view?usp=sharing" 
         target="_blank" 
