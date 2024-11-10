@@ -43,7 +43,7 @@ const items = [
     color: "from-pink-300 to-red-300",
     title: "My Portfolio Website",
     desc: "Created a personal portfolio using Next.js 13 with advanced animations via Framer Motion, SMTP API integration, and Tailwind CSS.",
-    img: "/dummy.png",
+    img: "/PortfolioWebsite.jpeg",
     link: "https://abhinavdholi.com/",
   },
   {
