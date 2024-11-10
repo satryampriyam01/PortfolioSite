@@ -68,8 +68,8 @@ const ContactPage = () => {
           ref={form}
           className="h-1/8 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-            <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com
-Phone: 857-343-7331</h1>
+            <h1>Email: priyam.s@northeastern.edu || satyampriyam01@gmail.com</h1>
+          <h1>Phone: 857-343-7331</h1>
         <span>....using the following form</span>
           <h2>Hi, Satyam Priyam</h2>
           <textarea
