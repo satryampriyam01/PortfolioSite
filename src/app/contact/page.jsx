@@ -58,7 +58,7 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            😊
+            satyampriyam01@gmail.com 😊
           </div>
         </div>
         {/* FORM CONTAINER */}
