@@ -40,15 +40,14 @@ const ContactPage = () => {
 
   return (
     <motion.div
-      className="h-full flex items-center justify-center bg-gray-100"
+      className="h-full flex items-center justify-center bg-gray-100 my-4 px-4 sm:px-6 md:px-8 lg:px-24 xl:px-48 w-full"
       initial={{ y: "-100vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="flex flex-col lg:flex-row px-6 sm:px-12 lg:px-24 xl:px-48 w-full max-w-7xl">
-        
+      <div className="flex flex-col lg:flex-row w-full max-w-full lg:max-w-7xl">
         {/* TEXT CONTAINER */}
-        <div className="h-1/3 lg:h-auto lg:w-1/2 flex items-center justify-center text-6xl font-bold text-gray-800">
+        <div className="h-1/3 lg:h-auto lg:w-1/2 flex items-center justify-center text-5xl sm:text-6xl font-bold text-gray-800 mb-4 lg:mb-0">
           <motion.div className="text-center">
             {text.split("").map((letter, index) => (
               <motion.span
@@ -72,17 +71,17 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="lg:w-1/2 bg-white shadow-lg rounded-lg p-12 md:p-16 text-lg flex flex-col gap-8"
+          className="lg:w-1/2 bg-white shadow-lg rounded-lg p-8 sm:p-12 md:p-16 w-full max-w-md mx-auto lg:mx-0 text-lg flex flex-col gap-6"
         >
+          {/* Contact Information */}
           <div className="mb-4 text-gray-700">
             <h1 className="text-2xl font-bold text-purple-700 mb-1">Email:</h1>
-            <h1 className="text-lg text-yellow-700" >priyam.s@northeastern.edu || satyampriyam01@gmail.com</h1>
+            <h1 className="text-lg text-yellow-700">priyam.s@northeastern.edu || satyampriyam01@gmail.com</h1>
             <h1 className="text-2xl font-bold text-purple-700 mt-4 mb-1">Phone:</h1>
-            <h1 className="text-lg text-yellow-700"> 857-343-7331</h1>
+            <h1 className="text-lg text-yellow-700">857-343-7331</h1>
           </div>
-          
-          <span className="font-semibold">Send a message:</span>
 
+          <span className="font-semibold">Send a message:</span>
           <textarea
             ref={messageRef}
             rows={5}
