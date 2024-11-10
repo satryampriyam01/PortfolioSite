@@ -70,16 +70,16 @@ const ContactPage = () => {
           <span>Hi, Satyam Priyam</span>
           <textarea
             rows={6}
-            className="bg-white border-2 border-black resize-none outline-none"
+            className="bg-white border-1 border-black resize-none outline-none"
             name="user_message"
-            placeholder="Type your message here!!"
+            placeholder="Your message"
           />
           
           <span>Your Email address:</span>
           <input
             name="user_email"
             type="text"
-            className="bg-white border-2 border-black outline-none" placeholder="john@gmail.com"
+            className="bg-white border-1 border-black outline-none" placeholder="john@gmail.com"
           />
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
             Send
