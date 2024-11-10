@@ -22,7 +22,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
-            Hola! I'm Satyam Priyam WHO LOVES COCO SO MUCH Thats why he is smiling here! View on desktop not on iPhone!
+            Hola! I'm Satyam Priyam WHO LOVES COCO SO MUCH Thats why he is smiling here!
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
