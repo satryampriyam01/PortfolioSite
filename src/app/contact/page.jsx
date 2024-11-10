@@ -67,10 +67,10 @@ const ContactPage = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Hi! Satyam Priyam,</span>
+          <span>Hi, Satyam Priyam</span>
           <textarea
             rows={6}
-            className="bg-transparent border-b-2 border-b-black resize-none"
+            className="bg-transparent border-2 border-b-black resize-none"
             name="user_message"
             placeholder="Type your message here!!"
           />
