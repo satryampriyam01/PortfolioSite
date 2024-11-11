@@ -230,20 +230,21 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    SWE INTERN (Backend)
+                    Quinbay Technology
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I worked in Travel Team . Worked on B2B and B2C domains of the product.{" "}
+                    I worked in the Travel Team as a Backend Engineer, helping them build a robust and scalable booking system and e-commerce platform.
+                    I contributed to both the B2B and B2C domains of the product.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     2022 - 2023
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+{/*                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
                     Quinbay Technology
-                  </div>
+                  </div> */}
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -278,7 +279,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    SDE Trainee
+                    Epikindifi
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -314,7 +315,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - Present{" "}
+                    2020 - Present{" "}
                   </div>
 
                 </div>
@@ -376,7 +377,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Northeastern University MS in CS
+                    Northeastern University (MS in CS)
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -389,12 +390,12 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - May 2026 Expected{" "}
+                    06/24 - 05/26 Expected{" "}
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                {/*                     Northeastern University (4.0/4.0) */}
-                  </div>
+{/*                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                                    Northeastern University (4.0/4.0)
+                  </div> */}
                 </div>
               </div>
 
@@ -405,7 +406,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                   KIIT University B.Tech in CS{" "}
+                   KIIT University (B.Tech in CS){" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-4 text-sm italic">
@@ -421,13 +422,13 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2023{" "}
+                    2019 - 23{" "}
                   </div>
 
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-{/*                     KIIT University (3.98/4.0) */}
+{/*                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    KIIT University (3.98/4.0)
                   </div>
-
+ */}
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
