@@ -46,8 +46,10 @@ const AboutPage = () => {
               <br/>
               <br/>
               I’m all about creating efficient, user-friendly systems—without any help from ChatGPT, 
-              I assure you! When not immersed in code, 
-              I’m likely plotting my next tech breakthrough. Ready to build something great? Let’s make software that’s worth tweeting about!
+              I assure you! When not immersed in code, I’m likely plotting my next tech breakthrough.
+              <br/>
+              <br/>
+              Ready to build something great? Let’s make software that’s worth tweeting about!
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
