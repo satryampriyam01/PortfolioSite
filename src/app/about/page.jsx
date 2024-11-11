@@ -40,7 +40,7 @@ const AboutPage = () => {
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">About Me</h1>
             {/* BIOGRAPHY DESC */}
-            <p className="text-lg whitespace-nowrap">
+            <p className="md:text-lg">
                As a Full Stack Software Engineer, I specialize in weaving AI with cloud technologies to architect software that’s not 
               only smart but also scales beautifully.
               <br/>
