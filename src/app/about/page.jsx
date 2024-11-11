@@ -282,7 +282,8 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                  Analyzed 40,000+ records, improved bonus satisfaction by 24%, and designed a library system frontend, increasing engagement by 30%.
+                  Analyzed 40,000+ records, improved bonus satisfaction by 24%,
+                    and designed a library system frontend, increasing engagement by 30%.
                     {" "}
                   </div>
                   {/* JOB DATE */}
@@ -375,7 +376,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    MS in CS
+                    Northeastern University MS in CS
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -392,7 +393,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Northeastern University (4.0/4.0)
+                {/*                     Northeastern University (4.0/4.0) */}
                   </div>
                 </div>
               </div>
@@ -404,7 +405,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    B.Tech in CS{" "}
+                   KIIT University B.Tech in CS{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-4 text-sm italic">
@@ -424,7 +425,7 @@ const AboutPage = () => {
                   </div>
 
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    KIIT University (3.98/4.0)
+{/*                     KIIT University (3.98/4.0) */}
                   </div>
 
                 </div>
