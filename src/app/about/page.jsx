@@ -236,7 +236,7 @@ const AboutPage = () => {
               className=""
             >
               {/* EXPERIENCE LIST ITEM */}
-              <div className="flex justify-between h-48">
+              <div className="flex justify-center h-48">
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
@@ -303,9 +303,9 @@ const AboutPage = () => {
                     2022 - 2022{" "}
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+{/*                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
                     Epikindifi
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
