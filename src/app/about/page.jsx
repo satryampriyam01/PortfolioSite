@@ -245,8 +245,8 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I worked as a Backend Engineer, helping them build a robust and scalable booking system and e-commerce platform.
-                    I contributed to both the B2B and B2C domains of the product.{" "}
+                    I worked as a Backend Engineer for the travel team, developing a 
+                    scalable booking system and e-commerce platform for both B2B and B2C domains.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
