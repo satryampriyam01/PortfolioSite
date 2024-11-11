@@ -231,7 +231,7 @@ const AboutPage = () => {
             </motion.h1>
             {/* EXPERIENCE LIST */}
             <motion.div
-              initial={{ x: "-50px" }}
+              initial={{ x: "-10px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
               className=""
             >
