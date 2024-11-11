@@ -42,7 +42,9 @@ const AboutPage = () => {
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
                As a Full Stack Software Engineer, I specialize in weaving AI with cloud technologies to architect software that’s not 
-              only smart but also scales beautifully. I’m all about creating efficient, user-friendly systems—without any help from ChatGPT, 
+              only smart but also scales beautifully.
+              <br/>
+              I’m all about creating efficient, user-friendly systems—without any help from ChatGPT, 
               I assure you! When not immersed in code, 
               I’m likely plotting my next tech breakthrough. Ready to build something great? Let’s make software that’s worth tweeting about!
             </p>
