@@ -434,7 +434,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 23{" "}
+                    06/19 - 05/23{" "}
                   </div>
 
 {/*                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
