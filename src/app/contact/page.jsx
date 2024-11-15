@@ -80,7 +80,7 @@ const ContactPage = () => {
     <a href="mailto:priyam.s@northeastern.edu" className="text-yellow-700 hover:underline">
       priyam.s@northeastern.edu
     </a>
-    {" || "}
+    {}
     <a href="mailto:satyampriyam01@gmail.com" className="text-yellow-700 hover:underline">
       satyampriyam01@gmail.com
     </a>
