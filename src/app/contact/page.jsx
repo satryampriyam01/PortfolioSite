@@ -77,11 +77,11 @@ const ContactPage = () => {
           <div className="mb-4 text-gray-700">
   <h1 className="text-xl font-bold text-white-700 mb-1">Email:</h1>
   <h1 className="text-lg text-yellow-700">
-    <a href="mailto:priyam.s@northeastern.edu" className="text-yellow-700 hover:underline">
+    <a href="mailto:priyam.s@northeastern.edu" className="text-yellow-500 hover:underline">
       priyam.s@northeastern.edu
     </a>
-    {}
-    <a href="mailto:satyampriyam01@gmail.com" className="text-yellow-700 hover:underline">
+    {" "}
+    <a href="mailto:satyampriyam01@gmail.com" className="text-yellow-500 hover:underline">
       satyampriyam01@gmail.com
     </a>
   </h1>
